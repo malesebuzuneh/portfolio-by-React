@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <Toaster />
-      <BrowserRouter basename="/portfolio-by-React">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>
