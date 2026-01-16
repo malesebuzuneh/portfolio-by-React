@@ -1,12 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
+// Get the base URL from Vite's import.meta.env
+const baseUrl = import.meta.env.BASE_URL;
+
 const projects = [
 	{
 		id: 2,
 		title: "Orbit Analytics Dashboard",
 		description:
 			"Interactive analytics dashboard with data visualization and filtering capabilities.",
-		image: "/Orbit Analytics Dashboard.jpg",
+		image: `${baseUrl}Orbit Analytics Dashboard.jpg`,
 		tags: ["TypeScript", "D3.js", "Next.js"],
 		demoUrl: "#",
 		githubUrl: "#",
@@ -16,7 +19,7 @@ const projects = [
 		title: "E-commerce Platform",
 		description:
 			"Full-featured e-commerce platform with user authentication and payment processing.",
-		image: "/ecommerce-platform.jpg",
+		image: `${baseUrl}ecommerce-platform.jpg`,
 		tags: ["React", "Node.js", "Stripe"],
 		demoUrl: "#",
 		githubUrl: "#",
@@ -26,7 +29,7 @@ const projects = [
 		title: "Student Management System",
 		description:
 			"Comprehensive system for managing student records, grades, attendance, and course enrollment.",
-		image: "/Student Management System.jpg",
+		image: `${baseUrl}Student Management System.jpg`,
 		tags: ["React", "MongoDB", "Express"],
 		demoUrl: "#",
 		githubUrl: "#",
