@@ -16,16 +16,13 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+            I am a dedicated web developer with over 1 years of hands-on experience building responsive, accessible, and high-performance web applications using modern web technologies. I focus on writing clean, maintainable code and creating user-friendly interfaces that deliver real value.
+
+
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+            I am passionate about solving complex problems with elegant solutions and continuously improving my skills by learning new tools, frameworks, and best practices. I enjoy staying up to date with the latest trends in web development and applying them to create efficient and modern digital experiences.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
